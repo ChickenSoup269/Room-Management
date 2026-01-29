@@ -8,5 +8,3 @@ export function cn(...inputs: ClassValue[]) {
 export function formatCurrency(value: number): string {
   return value.toLocaleString("vi-VN", { style: "decimal" }) // 2000000 -> 2.000.000
 }
-
-// lmao
